@@ -11,7 +11,7 @@ export default () => (
                 <section id="one" className="tiles">
                     <article style={{backgroundImage: `url('/static/images/pic01.jpg')`}}>
                         <header className="major">
-                            <h3>Aliquam</h3>
+                            <h3>Aliquam Aman</h3>
                             <p>Ipsum dolor sit amet</p>
                         </header>
                         <Link href="/about"><a className="link primary"></a></Link>
