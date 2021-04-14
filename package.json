@@ -32,6 +32,7 @@
     "react-copy-to-clipboard": "^5.0.3",
     "react-dom": "^16.5.2",
     "react-icons": "^4.2.0",
+    "react-router-dom": "^5.2.0",
     "react-scroll": "^1.8.2",
     "react-scroll-up-button": "^1.6.4",
     "react-syntax-highlighter": "^15.4.3",
