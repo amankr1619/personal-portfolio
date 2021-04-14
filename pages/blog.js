@@ -31,6 +31,10 @@ function Home({ posts }) {
 
   return (
     <Layout>
+      <Head>
+            <title>Aman's Blog</title>
+            <meta name="description" content="Blog" />
+        </Head>
         <div>
             <section id="banner" className="style2">
                 <div className="inner">
@@ -44,10 +48,6 @@ function Home({ posts }) {
                 </div>
             </section>
             <div id="main">
-                <Head>
-                    <title>Aman's Projects</title>
-                    <meta name="description" content="Projects" />
-                </Head>
 
                 <section id="two" className="spotlights">
                     {mappedPosts.length ? mappedPosts.map((p, index) => ( 

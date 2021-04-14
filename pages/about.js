@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 import Layout from '../components/Layout'
 
-export default () => (
+const About = () => (
     <Layout>
         <Head>
             <title>About Aman</title>
@@ -36,3 +36,5 @@ export default () => (
         </div>
     </Layout>
 )
+
+export default About
