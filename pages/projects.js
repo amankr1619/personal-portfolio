@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Layout from '../components/Layout'
 import BannerLanding from '../components/BannerLanding'
 
-export default () => (
+const Projects = () => (
     <Layout>
         <Head>
             <title>Aman's Projects</title>
@@ -89,3 +89,4 @@ export default () => (
         </div>
     </Layout>
 )
+export default Projects

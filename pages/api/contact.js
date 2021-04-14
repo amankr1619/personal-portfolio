@@ -1,6 +1,6 @@
 import nodemailer from "nodemailer"
 
-const emailPass = process.env.pass
+const emailPass = process.env.EMAIL_PASS
 
 const transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",

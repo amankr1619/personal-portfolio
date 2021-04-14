@@ -29,6 +29,7 @@
 		article {
 			width: 50%;
 			-ms-behavior: url('assets/js/ie/backgroundsize.min.htc');
+			behavior: url('assets/js/ie/backgroundsize.min.htc');
 			background-size: cover;
 		}
 	}
@@ -37,6 +38,7 @@
 
 	#banner {
 		-ms-behavior: url('assets/js/ie/backgroundsize.min.htc');
+		behavior: url('assets/js/ie/backgroundsize.min.htc');
 
 		&:after {
 			display: none;
