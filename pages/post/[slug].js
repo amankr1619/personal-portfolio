@@ -7,7 +7,7 @@ import Layout from '../../components/Layout'
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { monokaiSublime } from 'react-syntax-highlighter/dist/cjs/styles/hljs';
 import {CopyToClipboard} from 'react-copy-to-clipboard';
-import { FaRegCopy } from 'react-icons/fa'
+import { FaRegCopy, FaRegClipboard } from 'react-icons/fa'
 
 const serializers = {
   types: {
@@ -21,8 +21,9 @@ const serializers = {
   }
 }
 
-const Post = ({ title, body, image, date }) => {
-
+const Post = ({ title, body, image, author, date }) => {
+  
+  console.log(title, body, date, author)
   const [imageUrl, setImageUrl] = useState('');
 
   useEffect(() => {
@@ -88,7 +89,8 @@ export const getServerSideProps = async pageContext => {
         body: post.body,
         title: post.title,
         image: post.mainImage,
-        date: post._createdAt
+        date: post._createdAt,
+        author: post.author
       }
     }
   }

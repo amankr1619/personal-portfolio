@@ -39,18 +39,11 @@ class Layout extends React.Component {
             <div className={`body ${this.state.loading} ${this.state.isMenuVisible ? 'is-menu-visible' : ''}`}>
                 <Head>
                     <title>Aman Kumar</title>
-                    <meta name="title" content="Aman Kumar" />
-                    <meta name="description" content="I'm a Full-Stack Web Developer building web applications and websites with MERN Stack based in Nagpur, India" />
-                    <meta name="keywords" content="Aman, Amankr, portfolio" />
-                    <meta name="robots" content="index, follow" />
-                    <meta name="language" content="English" />
-                    <meta name="author" content="Aman Kumar" />
-
+                    <meta name="description" content="Next.js Starter - Forty" />
                     <link href="/static/css/skel.css" rel="stylesheet" />
                     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
                     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600,600i" rel="stylesheet" />
                     <link rel="text" href="../.well-known/pki-validation/" />
-                    <link rel = "icon" type = "image/png" href =  "../static/images/AmanLogo.png"/>
                 </Head>
                 <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
 
