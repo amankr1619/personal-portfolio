@@ -9,7 +9,8 @@ const Footer = (props) => (
                 <li><a href="https://www.linkedin.com/in/amankr1619/" className="icon alt fa-linkedin"><span className="label">LinkedIn</span></a></li>
             </ul>
             <ul className="copyright">
-                <li>&copy; Aman</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+                <li>&copy; Aman</li>
+                <li>This website is made with <a href="https://nextjs.org/">NextJS</a>, blog content managed by <a href="https://www.sanity.io/">Sanity</a>, design by <a href="https://html5up.net">HTML5 UP</a>, and deployed on <a href="https://vercel.com/">Vercel</a></li>
             </ul>
         </div>
     </footer>
