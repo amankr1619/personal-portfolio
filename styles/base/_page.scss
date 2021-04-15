@@ -5,11 +5,12 @@
 ///
 
 /* Basic */
-
+	// html {
+	// 	scroll-behavior: auto !important;
+	// }
 	// MSIE: Required for IEMobile.
 		@-ms-viewport {
 			width: device-width;
-			scroll-behavior: smooth;
 		}
 
 	// MSIE: Prevents scrollbar from overlapping content.

@@ -2,7 +2,6 @@ import Head from "next/head"
 import Link from 'next/link'
 
 import Layout from '../components/Layout'
-import BannerLanding from '../components/BannerLanding'
 
 const Projects = () => (
     <Layout>
@@ -12,7 +11,17 @@ const Projects = () => (
         </Head>
 
         <div>
-            <BannerLanding />
+        <section id="banner" className="style2">
+        <div className="inner">
+            <header className="major">
+                <h1>Projects</h1>
+            </header>
+            <div className="content">
+                <p>Lorem ipsum dolor sit amet nullam consequat<br />
+                sed veroeros. tempus adipiscing nulla.</p>
+            </div>
+        </div>
+    </section>
 
             <div id="main">
                 <section id="one">

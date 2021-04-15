@@ -9,43 +9,44 @@ const Index = () => (
             <Banner />
             <div id="main">
                 <section id="one" className="tiles">
-                    <article style={{backgroundImage: `url('/static/images/pic01.jpg')`}}>
+                    <article style={{backgroundImage: `url('/static/images/about.jpg')`}}>
                         <header className="major">
                             <h3>About</h3>
-                            <p>Ipsum dolor sit amet</p>
+                            <p>Learn More about me</p>
                         </header>
                         <Link href="/about"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('/static/images/pic02.jpg')`}}>
+                    <article style={{backgroundImage: `url('/static/images/projects.jpg')`}}>
                         <header className="major">
                             <h3>Projects</h3>
                             <p>Check some of my Awesome Projects</p>
                         </header>
-                        <Link href="/about"><a className="link primary"></a></Link>
+                        <Link href="/projects"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('/static/images/pic03.jpg')`}}>
+                    <article style={{backgroundImage: `url('/static/images/blog.jpg')`}}>
                         <header className="major">
                             <h3>Blog</h3>
                             <p>Take a look at my Articles</p>
                         </header>
-                        <Link href="/about"><a className="link primary"></a></Link>
+                        <Link href="/blog"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('/static/images/pic04.jpg')`}}>
+                    <article className="scrollButton" style={{backgroundImage: `url('/static/images/contact.jpg')`}}>
                         <header className="major">
                             <h3>Contact</h3>
-                            <p>Have a Question or Want to work together</p>
+                            <p>Get in Touch</p>
                         </header>
-                        <Link href="Contact"><a className="link primary"></a></Link>
+                        <Link href="#contact"><a className="link primary scrollButton"></a></Link>
                     </article>
                 </section>
                 <section id="two">
                     <div className="inner">
                         <header className="major">
-                            <h2>Massa libero</h2>
+                            <h2>About Me</h2>
                         </header>
-                        <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-                        <ul className="actions">
-                            <li><Link href="/about"><a className="button next">Learn More</a></Link></li>
+                        <p>I'm currently a Computer Science student at IIIT Nagpur learning MERN development and constantly competing at various programming contests with my Data Structures and Algorithm skills. I'm also quite interested in Open Source Software and always trying to contribute my part to the Open Source World. Learn more about me or Download my Resume :)</p>
+                        <ul className="actions scrollButton">
+                            <li><Link href="/about"><a className="button next">About Me</a></Link></li>
+                            <li><a className="button" href="#" download>Resume</a></li>
                         </ul>
                     </div>
                 </section>

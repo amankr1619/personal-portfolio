@@ -1,6 +1,6 @@
-import { Link } from 'react-scroll';
+import Link from 'next/link'
 
-const Banner = (props) => (
+const Banner = () => (
     <section id="banner" className="major">
         <div className="inner">
             <header className="major">
@@ -10,7 +10,7 @@ const Banner = (props) => (
                 <p>A 2nd Year CSE student at IIIT Nagpur,<br />
                 learning MERN development and exploring Open Source</p>
                 <ul className="actions">
-                    <li><Link activeClass="active" to="one" spy={true} smooth={true} duration={1000} className="button next scrolly">Get Started</Link></li>
+                    <li><Link href = "#"><a className="button next">Get Started</a></Link></li>
                 </ul>
             </div>
         </div>
